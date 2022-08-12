@@ -32,6 +32,7 @@ export default {
   methods: {
     getCountry(country){
       this.status = country
+      this.title = country.Country
     }
   },
   created() {

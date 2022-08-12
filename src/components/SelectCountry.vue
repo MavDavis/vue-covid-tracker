@@ -1,7 +1,7 @@
 <template>
   <select 
   v-model="selected"
-   class="form-select mt-10 block w-full border p-5 rounded mx-3"
+   class="form-select mt-10 block w-full border p-5 rounded mx-3 solid"
    @change="ChangeCountry">
   <option value="0">Select Country</option>
     <option
